@@ -363,7 +363,7 @@ THE SOFTWARE.
             errored = false;
             picker.element.trigger({
                 type: 'dp.change',
-                date: moment(picker.date),
+                date: picker.unset ? null : moment(picker.date),
                 oldDate: moment(oldDate)
             });
 
