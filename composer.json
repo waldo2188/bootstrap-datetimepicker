@@ -10,9 +10,8 @@
   "homepage": "http://eonasdan.github.io/bootstrap-datetimepicker/",
   "license": "MIT",
   "require": {
-    "robloach/component-installer": "*",
-    "components/jquery": ">=1.9.1",
-    "components/bootstrap": "3.*",
+    "twbs/bootstrap": "3.*",
+    "jquery/jquery":"1.11.*",
     "moment/moment": ">=2.8"
   },
   "extra": {
